@@ -6,20 +6,84 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CEF46C732F64202000EE3309 /* Voice Message to Text.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CEF46C692F64202000EE3309 /* Voice Message to Text.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF46C712F64202000EE3309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF46C332F641E5B00EE3309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF46C682F64202000EE3309;
+			remoteInfo = "Voice Message to Text";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEF46C782F64202000EE3309 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEF46C732F64202000EE3309 /* Voice Message to Text.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CEF46C3B2F641E5B00EE3309 /* WhatsApp-Voice-To-Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsApp-Voice-To-Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF46C692F64202000EE3309 /* Voice Message to Text.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Voice Message to Text.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CEF46C742F64202000EE3309 /* Exceptions for "Voice Message to Text" folder in "Voice Message to Text" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CEF46C682F64202000EE3309 /* Voice Message to Text */;
+		};
+		CEF46C7C2F64DB9800EE3309 /* Exceptions for "WhatsApp-Voice-To-Text" folder in "WhatsApp-Voice-To-Text" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CEF46C3A2F641E5B00EE3309 /* WhatsApp-Voice-To-Text */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CEF46C3D2F641E5B00EE3309 /* WhatsApp-Voice-To-Text */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CEF46C7C2F64DB9800EE3309 /* Exceptions for "WhatsApp-Voice-To-Text" folder in "WhatsApp-Voice-To-Text" target */,
+			);
 			path = "WhatsApp-Voice-To-Text";
+			sourceTree = "<group>";
+		};
+		CEF46C6A2F64202000EE3309 /* Voice Message to Text */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CEF46C742F64202000EE3309 /* Exceptions for "Voice Message to Text" folder in "Voice Message to Text" target */,
+			);
+			path = "Voice Message to Text";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEF46C382F641E5B00EE3309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF46C662F64202000EE3309 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				CEF46C3D2F641E5B00EE3309 /* WhatsApp-Voice-To-Text */,
+				CEF46C6A2F64202000EE3309 /* Voice Message to Text */,
 				CEF46C3C2F641E5B00EE3309 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				CEF46C3B2F641E5B00EE3309 /* WhatsApp-Voice-To-Text.app */,
+				CEF46C692F64202000EE3309 /* Voice Message to Text.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +121,12 @@
 				CEF46C372F641E5B00EE3309 /* Sources */,
 				CEF46C382F641E5B00EE3309 /* Frameworks */,
 				CEF46C392F641E5B00EE3309 /* Resources */,
+				CEF46C782F64202000EE3309 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CEF46C722F64202000EE3309 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				CEF46C3D2F641E5B00EE3309 /* WhatsApp-Voice-To-Text */,
@@ -69,6 +137,28 @@
 			productName = "WhatsApp-Voice-To-Text";
 			productReference = CEF46C3B2F641E5B00EE3309 /* WhatsApp-Voice-To-Text.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CEF46C682F64202000EE3309 /* Voice Message to Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF46C752F64202000EE3309 /* Build configuration list for PBXNativeTarget "Voice Message to Text" */;
+			buildPhases = (
+				CEF46C652F64202000EE3309 /* Sources */,
+				CEF46C662F64202000EE3309 /* Frameworks */,
+				CEF46C672F64202000EE3309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEF46C6A2F64202000EE3309 /* Voice Message to Text */,
+			);
+			name = "Voice Message to Text";
+			packageProductDependencies = (
+			);
+			productName = "Voice Message to Text";
+			productReference = CEF46C692F64202000EE3309 /* Voice Message to Text.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +171,10 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					CEF46C3A2F641E5B00EE3309 = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+					CEF46C682F64202000EE3309 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -100,12 +194,20 @@
 			projectRoot = "";
 			targets = (
 				CEF46C3A2F641E5B00EE3309 /* WhatsApp-Voice-To-Text */,
+				CEF46C682F64202000EE3309 /* Voice Message to Text */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CEF46C392F641E5B00EE3309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF46C672F64202000EE3309 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +224,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEF46C652F64202000EE3309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF46C722F64202000EE3309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF46C682F64202000EE3309 /* Voice Message to Text */;
+			targetProxy = CEF46C712F64202000EE3309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CEF46C472F641E5D00EE3309 /* Debug */ = {
@@ -249,12 +366,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "WhatsApp-Voice-To-Text/WhatsApp-Voice-To-Text.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsApp-Voice-To-Text/Preview Content\"";
 				DEVELOPMENT_TEAM = 4NG5UXJYS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WhatsApp-Voice-To-Text/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -268,6 +388,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.office.WhatsApp-Voice-To-Text";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WhatsApp-Voice-To-Text/WhisperEngine/WhatsApp-Voice-To-Text-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -278,12 +400,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "WhatsApp-Voice-To-Text/WhatsApp-Voice-To-Text.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsApp-Voice-To-Text/Preview Content\"";
 				DEVELOPMENT_TEAM = 4NG5UXJYS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WhatsApp-Voice-To-Text/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,6 +421,59 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.office.WhatsApp-Voice-To-Text";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WhatsApp-Voice-To-Text/WhisperEngine/WhatsApp-Voice-To-Text-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF46C762F64202000EE3309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Voice Message to Text/Voice Message to Text.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NG5UXJYS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Voice Message to Text/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Voice Message to Text";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.office.WhatsApp-Voice-To-Text.Voice-Message-to-Text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF46C772F64202000EE3309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Voice Message to Text/Voice Message to Text.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NG5UXJYS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Voice Message to Text/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Voice Message to Text";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.office.WhatsApp-Voice-To-Text.Voice-Message-to-Text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,6 +497,15 @@
 			buildConfigurations = (
 				CEF46C4A2F641E5D00EE3309 /* Debug */,
 				CEF46C4B2F641E5D00EE3309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF46C752F64202000EE3309 /* Build configuration list for PBXNativeTarget "Voice Message to Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF46C762F64202000EE3309 /* Debug */,
+				CEF46C772F64202000EE3309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
